@@ -1,5 +1,3 @@
-from tabnanny import process_tokens
-
 my_dict = {"Ann": 1967, "Den": 1978, "Poul": 2001, "Soul": 1997}
 print(my_dict)
 print("Existing value: ", my_dict.get("Ann"))
