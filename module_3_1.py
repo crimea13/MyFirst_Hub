@@ -1,5 +1,5 @@
 calls = 0
-st = "kjyg lkuy klu"
+
 def count_calls():
     global calls
     calls += 1
@@ -7,8 +7,8 @@ def count_calls():
 
 def string_info(string):
     count_calls()
-    tutle_1 = (len(string), string.upper(), string.lower())
-    return tutle_1
+    tuple_1 = (len(string), string.upper(), string.lower())
+    return tuple_1
 
 def is_contains(string, list_to_search):
     count_calls()
