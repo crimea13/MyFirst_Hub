@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dog = "@"
 dom = [".com", ".ru", ".net"]
 def validate_dog(text, smb):
