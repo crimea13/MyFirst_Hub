@@ -12,8 +12,6 @@ def sum_element(element):
         total_sum += element
     elif isinstance(element, str):
         total_sum += len(element)
-            #numbers_in_string = re.findall(r'\d+', element)
-            #total_sum += sum(map(int, numbers_in_string))
     elif isinstance(element, (list, tuple, set)):
         for item in element:
             sum_element(item)
