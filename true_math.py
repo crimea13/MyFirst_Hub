@@ -5,4 +5,3 @@ def divide(first: int, second: int):
         return inf
     else: return first / second
 
-
